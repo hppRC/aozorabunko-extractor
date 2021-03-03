@@ -36,4 +36,5 @@ python src/aozorabunko_extractor/cli.py --input_dir aozorabunko_text-master --ou
 -o, --output_dir out # 抽出したテキストを出力するディレクトリを指定
 --break_sentence # フラグを有効にすると、文を「。」を基準に改行区切り
 --min_chars 3 # 一行の最小文字数を指定
+--num_process 8 # 最大並列実行プロセス数を指定
 ```
