@@ -3,10 +3,8 @@ import codecs
 import re
 import itertools
 
-
 from pathlib import Path
 from concurrent.futures import ProcessPoolExecutor
-from typing import cast
 from konoha import SentenceTokenizer
 
 
